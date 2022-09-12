@@ -84,11 +84,11 @@ WSGI_APPLICATION = 'blog.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'BlogTest',
-        'USER': 'root',
-        'PASSWORD':'Nation@9980',   
-        'PORT': 3306,
-        'HOST':'127.0.0.1'
+        'NAME': 'Your DashBoard NAme',
+        'USER': 'User Name',
+        'PASSWORD':'Your Password',   
+        'PORT': Your Port,
+        'HOST':'Your Host NAme'
     }
 }
 
@@ -155,8 +155,6 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.BasicAuthentication',
         'rest_framework.authentication.SessionAuthentication',
     ),
-    # 'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
-    # 'PAGE_SIZE': 1, 
 }   
 
 # Internationalization
@@ -185,5 +183,6 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'rsc0751@gmail.com'
-EMAIL_HOST_PASSWORD = 'mqmoaibenwkfpoqa'
+EMAIL_HOST_USER = 'Your Gmail ID'
+EMAIL_HOST_PASSWORD = 'Your Gmail App Password'
+# You can create your gmail app password from account settings, enable two Step verification
